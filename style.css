@@ -116,6 +116,12 @@ margin-left: 10px;
 width: 200px;
 border-radius: 8px;
 }
+.twin button, img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
 .gallary-info h1{
     text-align: center;
     color: #131318;
@@ -389,8 +395,8 @@ padding-bottom: 100px;
     .banner-input{
         flex-direction: column;
         width: 300px;
-        margin: 10px auto;
-        padding-top: 40px;
+        margin: 30px auto;
+        padding-top: 60px;
         padding-bottom: 15px;
         height: 200px;
     }
@@ -405,6 +411,7 @@ padding-bottom: 100px;
     }
     .para-banner{
         width: 300px;
+        margin: 20px;
     }
     .banner-info p {
         width: 300px;
@@ -478,7 +485,7 @@ margin-left: 25px;
 width: 160px;
 height: 79.268px;
 transform: rotate(-19.628deg);
-left: 170px;
+left: 210px;
 bottom: 125px;
 }
  .save h1{
@@ -493,7 +500,7 @@ bottom: 125px;
     display: flex;
     flex-direction: column;
     margin: 5px auto;
-    width: 350px;
+    width: 380px;
 }
  .gallary-info p {
     width: 400px;
