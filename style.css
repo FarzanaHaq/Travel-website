@@ -414,13 +414,19 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     display: none;
 }
 
+
+
  @media screen and (max-width: 600px) {
     nav {
         display: none;
     }
     .nav-content{
-    padding: 5px;
+        width: 300px;
+        padding-left: 30px;
+        padding-top: 1px;
+        padding-bottom: 1px;
     }
+
     #hero-travel {
         padding-left: 20px;
     }
@@ -428,12 +434,12 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
         padding: 5px;
         margin: 2px auto;
         height: 500px;
-        width: 350px;
+        width: 340px;
     }
     .banner-content h1 {
-        margin-top: 5px;
+        margin-top: 15px;
         margin-bottom: 10px;
-        font-size: 35px;
+        font-size: 30px;
     
     }
     .banner-input button {
@@ -477,8 +483,15 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
      .tour-container {
         flex-direction: column;
         margin: 10px auto;
-        width: 90%;
+        width: 350px;
     }
+    .tour-container h1 {
+        font-size: 26px;
+    }
+.gallary-info h1 {
+    font-size: 26px;
+    margin-top: 20px;
+}
     .tour-container img {
         width: 320px;
     }
@@ -497,7 +510,10 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     width: 300px;
 }
  .service-container p {
-    width: 300px;
+    width: 320px;
+}
+.service-container h1 {
+    font-size: 26px;
 }
  .news-container {
     flex-direction: column;
@@ -532,8 +548,8 @@ margin-left: 25px;
 width: 160px;
 height: 79.268px;
 transform: rotate(-19.628deg);
-left: 210px;
-bottom: 125px;
+left: 206px;
+bottom: 120px;
 }
  .save h1{
     font-size: 16px;
@@ -547,10 +563,10 @@ bottom: 125px;
     display: flex;
     flex-direction: column;
     margin: 5px auto;
-    width: 380px;
+    width: 350px;
 }
  .gallary-info p {
-    width: 400px;
+    width: 320px;
     margin-bottom: 20px;
 }
  .gallary-info h1 {
@@ -566,7 +582,7 @@ bottom: 125px;
     margin: 50px auto;
 }
 #hotel-content {
-    width: 400px;
+    width: 320px;
 }
  }
 
