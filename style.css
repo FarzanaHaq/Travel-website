@@ -448,7 +448,7 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     .banner-input{
         flex-direction: column;
         width: 300px;
-        margin: 30px auto;
+        margin: 50px auto;
         padding-top: 60px;
         padding-bottom: 15px;
         height: 200px;
@@ -465,6 +465,7 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     .para-banner{
         width: 300px;
         margin: 20px;
+        margin-bottom: 30px;
     }
     .banner-info p {
         width: 300px;
@@ -474,7 +475,7 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     }
     #where {
         width: 180px;
-        margin-left: 10px;
+        margin-left: 50px;
     }
 
     #find {
