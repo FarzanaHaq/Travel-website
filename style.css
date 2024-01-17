@@ -422,7 +422,7 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     }
     .nav-content{
         width: 300px;
-        padding-left: 30px;
+        padding-left: 20px;
         padding-top: 1px;
         padding-bottom: 1px;
     }
@@ -475,7 +475,7 @@ box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     }
     #where {
         width: 180px;
-        margin-left: 50px;
+        margin: 2px auto;
     }
 
     #find {
@@ -584,6 +584,9 @@ bottom: 120px;
 }
 #hotel-content {
     width: 320px;
+}
+body {
+    margin: 1px auto;
 }
  }
 
